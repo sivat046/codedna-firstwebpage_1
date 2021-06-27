@@ -66,7 +66,7 @@ public class TodoController extends Todo{
     @RequestMapping(value="/add-todo",method= RequestMethod.POST)
     public String addTodo(ModelMap model, @Valid Todo todo, BindingResult result)
     {
-        System.out.println("tODO Comings");
+        System.out.println("tODO Comingsssss");
 
         if(result.hasErrors()){
             return "todo";
